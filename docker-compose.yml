@@ -14,12 +14,12 @@ services:
     container_name: golang-docker-web
     environment:
       - 'DB_PORT=3306'
-      - 'DB_HOST=localhost'
+      - 'DB_HOST=database'
 
   database:
     image: mysql:5.7.22
     environment:
-      MYSQL_ROOT_PASSWORD: Password11
+      MYSQL_ROOT_PASSWORD: root
       MYSQL_USER: root
       MYSQL_PASSWORD: Password11
       MYSQL_DATABASE: edufund

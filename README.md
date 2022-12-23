@@ -1,2 +1,2 @@
-# edufundTest
-this repo made for edufund recruitment test
+run this go apps using command go run . to run local
+
